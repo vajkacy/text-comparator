@@ -76,7 +76,7 @@ const Sidebar = () => {
 
         {/* 🍔 Hamburger Slide-out Menu */}
         {isNavOpen && (
-          <div className="fixed inset-x-0 bottom-0 top-[64px] bg-[#0a192f] text-white z-40 flex flex-col">
+          <div className="fixed inset-x-0 bottom-0 top-16 bg-[#0a192f] text-white z-40 flex flex-col">
             {/* Navigation Links inside Hamburger */}
             <nav className="flex-1 p-6">
               <p className="text-gray-500 text-[10px] uppercase tracking-widest mb-6">
